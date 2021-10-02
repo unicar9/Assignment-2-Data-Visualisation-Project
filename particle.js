@@ -70,7 +70,7 @@ class Particle {
     // time from now (in seconds)
     let time = 0;
     // note duration (in seconds)
-    let dur = 1 / 10;
+    let dur = map(this.degree, 17, 30, 1 / 2, 1 / 10);
 
     if (!this.played) {
       monoSynth.play(this.note, velocity, time, dur);

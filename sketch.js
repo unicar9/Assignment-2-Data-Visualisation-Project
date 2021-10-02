@@ -20,7 +20,7 @@ const colorSchemes = [
 ];
 
 function groupDataByDate(data) {
-  return _.groupBy(data, item => item[0].split(" ")[0]);
+  return _.groupBy(data, (item) => item[0].split(" ")[0]);
 }
 
 function setup() {
@@ -34,7 +34,6 @@ function setup() {
   tempratures = Object.values(groupedTemperatures);
   days = Object.keys(groupedTemperatures);
 
-  console.log(days[dayIndex]);
   monoSynth = new p5.MonoSynth();
 }
 
@@ -79,8 +78,6 @@ function switchDay(i) {
   background(0);
   particles = [];
   count = 0;
-
-  console.log(days[i]);
 }
 
 function mousePressed() {
