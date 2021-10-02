@@ -70,7 +70,6 @@ function draw() {
 }
 
 function switchDay(i) {
-  if (growing) return;
   dateInfo = days[i];
   if (!dateInfo) return;
 
@@ -81,6 +80,8 @@ function switchDay(i) {
 }
 
 function mousePressed() {
+  if (growing) return;
+
   dayIndex++;
   switchDay(dayIndex);
 }
