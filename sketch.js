@@ -27,8 +27,6 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
 
-  userStartAudio();
-
   rectMode(CENTER);
   ellipseMode(CENTER);
 
@@ -101,4 +99,8 @@ function keyPressed() {
     dayIndex--;
     switchDay(dayIndex);
   }
+}
+
+function mouseMove() {
+  userStartAudio();
 }
