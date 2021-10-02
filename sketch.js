@@ -27,6 +27,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
 
+  getAudioContext().suspend();
+
   rectMode(CENTER);
   ellipseMode(CENTER);
 
@@ -81,11 +83,15 @@ function switchDay(i) {
 }
 
 function mousePressed() {
+  userStartAudio();
+
   dayIndex++;
   switchDay(dayIndex);
 }
 
 function keyPressed() {
+  userStartAudio();
+
   if (growing) return;
 
   console.log("pressed");
