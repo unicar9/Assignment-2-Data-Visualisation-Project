@@ -101,6 +101,6 @@ function keyPressed() {
   }
 }
 
-function mouseMove() {
+function mouseMoved() {
   userStartAudio();
 }
