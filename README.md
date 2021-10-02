@@ -2,6 +2,8 @@
 
 develop a system that creates a representation of the sensor data from building 11
 
+## [Demo](https://unicar9.github.io/Assignment-2-Data-Visualisation-Project/)
+
 ## Project Description:
 
 This is an interactive data representation system with creative audio and visual effects. The data and the technics we used will be introduced as below:
