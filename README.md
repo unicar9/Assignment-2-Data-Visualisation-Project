@@ -18,7 +18,7 @@ We used Air Temperature data produced by the weather station from the 1st of Jun
 
 #### Summary:
 
-We grouped the data based on dates, and each data contains a date-time and a Celsius degree at that time, such as `["2021-06-01 00:01:20", 21.33]`, each data point was represented visually as a small circle or a square and a verticle motion trail. Every time a user clicks on the screen, it will generate a whole day's data points and a music note matching each data point.
+We grouped the data based on dates, and each data contains a date-time and a Celsius degree at that time, such as `["2021-06-01 00:01:20", 21.33]`, each data point was represented visually as a small circle or a square and a vertical motion trail. Every time a user clicks on the screen, it will generate a whole day's data points and a music note matching each data point.
 
 #### Specification:
 
